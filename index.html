@@ -4,53 +4,25 @@
 	<title>Página Pessoal Marcos Faino</title>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<style>
-		html, body{
-			margin: 0;
-			padding: 0;
-			height:98%;
-		}
-		main{
-			margin: 0 auto;
-			width: 80%;
-			background-color:lightgreen;
-			height:98%;
-		}
-		a{
-			text-decoration: none;
-		}
-		
-		ul{
-			list-style-type: "✏️";
-		}
-		h1{
-			background-color: lightgrey;
-		}
-		h1,h2{
-			text-align: center;		
-		}
-		span{
-			font-size:2rem;
-		}
-	</style>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
 </head>
 <body>
-	<main>
-	<h1>Bem-vindo à página pessoal do <br>Prof. Marcos Faino</h1>
-	<section>
-		<h2><span>💻</span>Meus projetos HTML<span>💻</span></h2>
+	<main class="container">
+	<h1 align="center">Bem-vindo à página pessoal do <br>Prof. Marcos Faino</h1>
+	<article>
+		<h2 align="center"><span>💻</span>Meus projetos HTML<span>💻</span></h2>
 		<ul>
 			<li>
-			    <a href="curriculum v1/curriculum.html">Curriculum</a>
+			    <a href="curriculum v1/curriculum.html" role="button">Curriculum</a>
 		    </li>
 			<li>
-				<a href="aulatabela/tabela.html">Aula Tabelas</a>
+				<a href="aulatabela/tabela.html" role="button">Aula Tabelas</a>
 			</li>
 		</ul>
 		<audio controls>
 			<source src="audio/idontcare.mp3">
 		</audio>
-	</section>
+	</article>
 	</main>
 </body>
 </html>
